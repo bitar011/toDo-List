@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tarefas</title>
+    <link rel="shortcut icon" href="icone/icon to do.png" type="image/x-icon">
+    <title>To Do List</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h2>Lista de Tarefas</h2>
+        <h2>To Do List</h2>
         <div class="task-input">
-            <input type="text" id="taskInput" placeholder="Adicionar nova tarefa...">
+            <input type="text" id="taskInput" placeholder="Adicionar nova tarefa..." required>
             <button onclick="addTask()">Adicionar</button>
         </div>
         <ul id="taskList"></ul>
