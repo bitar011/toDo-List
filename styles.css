@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(135deg, #687fa1 0%, #9156ac 100%); ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.603);
+    padding: 20px;
+    width: 350px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+
+}
+
+.task-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.task-input input:focus {
+    outline: none;
+}
+
+.task-input button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.task-input button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-text {
+    flex: 1;
+    word-break: break-word;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #8d1c27;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
